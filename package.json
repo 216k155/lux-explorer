@@ -1,0 +1,36 @@
+{
+  "name": "lux-explorer",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the lux network and build your own services with it.",
+  "version": "0.11.3",
+  "repository": "git@github.com:216k155/lux-explorer.git",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/216k155/lux-explorer/issues"
+  },
+  "homepage": "https://github.com/216k155/lux-explorer",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "lux",
+    "luxcore",
+    "front-end"
+  ],
+  "luxcoreNode": "luxcore-node",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}
