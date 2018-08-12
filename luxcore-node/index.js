@@ -19,7 +19,7 @@ var InsightUI = function(options) {
   if (typeof options.routePrefix !== 'undefined') {
     this.routePrefix = options.routePrefix;
   } else {
-    this.routePrefix = 'insight';
+    this.routePrefix = 'lux-explorer';
   }
 
   if (typeof options.nodemapLink !== 'undefined') {
