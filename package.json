@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/216k155/lux-explorer.git#master",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/216k155/lux-explorer.git#master",
+        "spec": "git+https://github.com/216k155/lux-explorer.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:216k155/lux-explorer.git#master",
+          "sshUrl": "git+ssh://git@github.com/216k155/lux-explorer.git#master",
+          "httpsUrl": "git+https://github.com/216k155/lux-explorer.git#master",
+          "gitUrl": "git://github.com/216k155/lux-explorer.git#master",
+          "shortcut": "github:216k155/lux-explorer#master",
+          "directUrl": "https://raw.githubusercontent.com/216k155/lux-explorer/master/package.json"
+        }
+      },
+      "/Users/admin/Documents/LUX/mynode"
+    ]
+  ],
+  "_from": "git+https://github.com/216k155/lux-explorer.git#master",
+  "_id": "lux-explorer@0.11.3",
+  "_inCache": true,
+  "_location": "/lux-explorer",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/216k155/lux-explorer.git#master",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/216k155/lux-explorer.git#master",
+    "spec": "git+https://github.com/216k155/lux-explorer.git#master",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:216k155/lux-explorer.git#master",
+      "sshUrl": "git+ssh://git@github.com/216k155/lux-explorer.git#master",
+      "httpsUrl": "git+https://github.com/216k155/lux-explorer.git#master",
+      "gitUrl": "git://github.com/216k155/lux-explorer.git#master",
+      "shortcut": "github:216k155/lux-explorer#master",
+      "directUrl": "https://raw.githubusercontent.com/216k155/lux-explorer/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/216k155/lux-explorer.git#e16a886c5e752e56145d853d01e10bd5ebcbecaf",
+  "_shasum": "e09592b8c18e0bcb26a186cec3ad634ae0838182",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/216k155/lux-explorer.git#master",
+  "_where": "/Users/admin/Documents/LUX/mynode",
+  "bugs": {
+    "url": "https://github.com/216k155/lux-explorer/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the lux network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
+  },
+  "gitHead": "e16a886c5e752e56145d853d01e10bd5ebcbecaf",
+  "homepage": "https://github.com/216k155/lux-explorer",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "lux",
+    "luxcore",
+    "front-end"
+  ],
+  "license": "MIT",
+  "luxcoreNode": "luxcore-node",
+  "name": "lux-explorer",
+  "optionalDependencies": {},
+  "readme": "# Explorer\n\nA LUX blockchain explorer web application service for [Luxcore Node](https://github.com/216k155/luxcore-node) using the [LUX API](https://github.com/216k155/insight-api).\n\n\n## Getting Started\n\n1. Install nvm https://github.com/creationix/nvm  \n\n    ```bash\n    nvm i v6\n    nvm use v6\n    ```  \n2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  \n\n3. Install lux-bitcore https://github.com/216k155/lux-bitcore - with ZMQ !\n\n    ```bash\n    # with ZMQ\n    sudo apt-get install libzmq3-dev \n    ```  \n4. Install luxcore-node\n\n    ```bash\n    npm i https://github.com/216k155/luxcore-node.git#master\n\n    $(npm bin)/luxcore-node create mynode\n\n    cd mynode\n\n    $(npm bin)/luxcore-node install https://github.com/216k155/insight-api.git#master\n    $(npm bin)/luxcore-node install https://github.com/216k155/lux-explorer.git#master\n    ```  \n5. Edit luxcore-node.json\n\n    ```json\n    {\n      \"network\": \"livenet\",\n      \"port\": 3001,\n      \"services\": [\n        \"luxd\",\n        \"lux-insight-api\",\n        \"lux-explorer\",\n        \"web\"\n      ],\n      \"servicesConfig\": {\n        \"lux-explorer\": {\n          \"apiPrefix\": \"lux-insight-api\",\n          \"routePrefix\": \"lux-explorer\",\n          \"nodemapLink\": \"https://luxcore.io/en/nodemap\"\n       },\n       \"lux-insight-api\": {\n         \"routePrefix\": \"lux-insight-api\",\n         \"rateLimiterOptions\": {\n           \"whitelist\": [\n             \"123.456.12.34\",\n             \"::ffff:123.456.12.34\"\n           ],\n           \"whitelistLimit\": 9999999,\n           \"limit\": 200,\n           \"interval\": 60000,\n           \"banInterval\": 3600000\n         },\n          \"db\": {\n            \"host\": \"127.0.0.1\",\n            \"port\": \"27017\",\n            \"database\": \"lux-api-livenet\",\n            \"user\": \"\",\n            \"password\": \"\"\n         },\n          \"erc20\": {\n            \"updateFromBlockHeight\": 0\n          }\n        },\n        \"luxd\": {\n          \"spawn\": {\n            \"datadir\": \"/home/user/.lux\",\n           \"exec\": \"/home/user/lux-bitcore/src/luxd\"\n          }\n        }\n      }\n    }\n\n    ```  \n6. Edit lux.conf\n\n    ```\n    server=1\n    whitelist=127.0.0.1\n    txindex=1\n    addressindex=1\n    timestampindex=1\n    spentindex=1\n    zmqpubrawtx=tcp://127.0.0.1:28332\n    zmqpubhashblock=tcp://127.0.0.1:28332\n    rpcallowip=127.0.0.1\n    rpcuser=user\n    rpcpassword=password\n    rpcport=9888\n    reindex=1\n    gen=0\n    addrindex=1\n    logevents=1\n    ```  \n7. Run Node  \n\n    ```\n    $(npm bin)/luxcore-node start\n    ```  \n\n8. Open a web browser to `http://localhost:3001/lux-explorer` or `http://localhost:3001/lux-insight-api`\n\n## Development\n\nTo run Insight UI locally in development mode:\n\nInstall bower dependencies:\n\n```\n$ bower install\n```\n\nTo compile and minify the web application's assets:\n\n```\n$ grunt compile\n```\n\nThere is a convenient Gruntfile.js for automation during editing the code\n\n```\n$ grunt\n```\n\n## Multilanguage support\n\nInsight UI uses [angular-gettext](http://angular-gettext.rocketeer.be) for multilanguage support.\n\nTo enable a text to be translated, add the ***translate*** directive to html tags. See more details [here](http://angular-gettext.rocketeer.be/dev-guide/annotate/). Then, run:\n\n```\ngrunt compile\n```\n\nThis action will create a template.pot file in ***po/*** folder. You can open it with some PO editor ([Poedit](http://poedit.net)). Read this [guide](http://angular-gettext.rocketeer.be/dev-guide/translate/) to learn how to edit/update/import PO files from a generated POT file. PO file will be generated inside po/ folder.\n\nIf you make new changes, simply run **grunt compile** again to generate a new .pot template and the angular javascript ***js/translations.js***. Then (if use Poedit), open .po file and choose ***update from POT File*** from **Catalog** menu.\n\nFinally changes your default language from ***public/src/js/config***\n\n```\ngettextCatalog.currentLanguage = 'es';\n```\n\nThis line will take a look at any *.po files inside ***po/*** folder, e.g.\n**po/es.po**, **po/nl.po**. After any change do not forget to run ***grunt\ncompile***.\n\n\n## Note\n\nFor more details about the [LUX API](https://github.com/216k155/insight-api) configuration and end-points, go to [LUX API](https://github.com/216k155/insight-api).\n\n## Contribute\n\nContributions and suggestions are welcomed at the [Explorer GitHub repository](https://github.com/216k155/lux-explorer).\n\n\n## License\n(The MIT License)\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/216k155/lux-explorer.git"
+  },
+  "version": "0.11.3"
+}
