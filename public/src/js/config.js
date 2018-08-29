@@ -29,7 +29,7 @@ angular.module('insight').config(function($routeProvider) {
 	$routeProvider.
 	when('/block/:blockHash', {
 		templateUrl: 'views/block.html',
-		title: 'Quantum Block '
+		title: 'Lux Block '
 	}).
 	when('/block-index/:blockHeight', {
 		controller: 'BlocksController',
@@ -41,7 +41,7 @@ angular.module('insight').config(function($routeProvider) {
 	}).
 	when('/tx/:txId/:v_type?/:v_index?', {
 		templateUrl: 'views/transaction.html',
-		title: 'Quantum Transaction '
+		title: 'Lux Transaction '
 	}).
 	when('/', {
 		templateUrl: 'views/index.html',
@@ -49,19 +49,19 @@ angular.module('insight').config(function($routeProvider) {
 	}).
 	when('/blocks', {
 		templateUrl: 'views/block_list.html',
-		title: 'Quantum Blocks solved Today'
+		title: 'Lux Blocks solved Today'
 	}).
 	when('/blocks-date/:blockDate/:startTimestamp?', {
 		templateUrl: 'views/block_list.html',
-		title: 'Quantum Blocks solved '
+		title: 'Lux Blocks solved '
 	}).
 	when('/address/:addrStr', {
 		templateUrl: 'views/address.html',
-		title: 'Quantum Address '
+		title: 'Lux Address '
 	}).
 	when('/contracts/:contractAddressStr', {
 		templateUrl: 'views/contract.html',
-		title: 'Quantum Contract '
+		title: 'Lux Contract '
 	}).
 	when('/status', {
 		templateUrl: 'views/status.html',
