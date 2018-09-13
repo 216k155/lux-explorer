@@ -198,7 +198,7 @@ function($scope, $rootScope, $window, $timeout, moment, getSocket, Blocks, Trans
         $q.all([Status.get({
             q: 'getInfo'
         }).$promise, StatisticsTotalSupply.get({format: 'object'}).$promise, Status.get({
-            q: 'getStakingInfo'
+            q: 'getStakingStatus'
         }).$promise]).then(function (results) {
             if (results[0] && results[1] && results[2]) {
                 self.blockchainInfo = results[0].info;
