@@ -362,120 +362,120 @@ sub {
 
 .icon-angular .path1:before {
   content: "\e900";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-angular .path2:before {
   content: "\e901";
   margin-left: -0.9501953125em;
-  color: #232328; }
+  color: #071434; }
 
 .icon-angular .path3:before {
   content: "\e902";
   margin-left: -0.9501953125em;
-  color: #232328; }
+  color: #071434; }
 
 .icon-angular .path4:before {
   content: "\e903";
   margin-left: -0.9501953125em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-angular .path5:before {
   content: "\e904";
   margin-left: -0.9501953125em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path1:before {
   content: "\e910";
-  color: #2e9ad0;
+  color: #ffffff;
   opacity: 0.4; }
 
 .icon-livedb .path2:before {
   content: "\e911";
   margin-left: -2.6748046875em;
-  color: #2e9ad0;
+  color: #ffffff;
   opacity: 0.8; }
 
 .icon-livedb .path3:before {
   content: "\e912";
   margin-left: -2.6748046875em;
-  color: #2e9ad0;
+  color: #ffffff;
   opacity: 0.3; }
 
 .icon-livedb .path4:before {
   content: "\e913";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path5:before {
   content: "\e914";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path6:before {
   content: "\e915";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path7:before {
   content: "\e916";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path8:before {
   content: "\e917";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path9:before {
   content: "\e918";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path10:before {
   content: "\e919";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-livedb .path11:before {
   content: "\e91a";
   margin-left: -2.6748046875em;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-bitcore:before {
   content: "\e905";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-nodejs:before {
   content: "\e90f";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-qr:before {
   content: "\e908";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-transaction:before {
   content: "\e90b";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-blocks:before {
   content: "\e91b";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-copy:before {
   content: "\e906";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-plus:before {
   content: "\e90e";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-minus:before {
   content: "\e907";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-search:before {
   content: "\e909";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-arrows-right:before {
   content: "\e90a"; }
@@ -485,15 +485,15 @@ sub {
 
 .icon-arrow:before {
   content: "\e90d";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-arrow2:before {
   content: "\e91c";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-calendar:before {
   content: "\e91d";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-arrow-left:before {
   content: "\e91e"; }
@@ -503,18 +503,18 @@ sub {
 
 .icon-close:before {
   content: "\e920";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-plus2:before {
   content: "\e921";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-error:before {
   content: "\e922"; }
 
 .icon-minus_act:before {
   content: "\e923";
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 .icon-write:before {
   content: "\e924"; }
@@ -553,15 +553,15 @@ html {
 body {
   height: 100%;
   min-width: 1420px;
-  color: #2e9ad0;
+  color: #ffffff;
   font: 400 16px "SimplonMono", sans-serif;
-  background: #232328; }
+  background: #071434; }
 
 a {
   font-weight: 400;
   font-family: "SimplonMono", sans-serif;
   text-decoration: none;
-  color: #2e9ad0; }
+  color: #ffffff; }
 
 b, strong {
   font-weight: 500; }
@@ -632,8 +632,9 @@ b, strong {
   max-width: 100%; }
 
 .content {
-  max-width: 1420px;
-  margin: 0 auto; }
+  /* max-width: 1420px;
+  margin: 0 auto;  */
+}
   .content .box:before, .content .box:after {
     content: " ";
     display: table; }
@@ -675,20 +676,27 @@ b, strong {
         width: 100%;
         padding-bottom: 8px; }
         .content__list-blockchain .item-full .label {
+          font-family: "Open-Sans", sans-serif;
+          text-transform: uppercase;
           font-size: 32px; }
         .content__list-blockchain .item-full .labeled {
+          font-family: "Open-Sans", sans-serif;
+          text-transform: uppercase;
           font-size: 18px; }
     .content__list-blockchain .label {
       font-size: 27px;
-      font-family: "SimplonMono", sans-serif;
+      font-weight: 700;
+      font-family: "Open-Sans", sans-serif;
       margin-bottom: 5px; }
     .content__list-blockchain .labeled {
+      font-family: "Open-Sans", sans-serif;
+      text-transform: uppercase;
       font-size: 16px;
       opacity: .6; }
     .content__list-blockchain .limiter {
       margin: 16px 0;
       height: 1px;
-      background: #2e9ad0;
+      background: #ffffff;
       opacity: .3; }
     .content__list-blockchain .section__heading {
       margin: 36px 0 50px; }
@@ -701,10 +709,9 @@ b, strong {
       margin-bottom: 28px; }
 
 .heading {
-  overflow: hidden;
-  margin-bottom: 20px; }
+  overflow: hidden; }
   .heading.margin1 {
-    margin-top: 115px; }
+    margin-top: 30px; }
   .heading-width-900 {
     max-width: 900px; }
   .heading__pic {
@@ -714,16 +721,17 @@ b, strong {
     .heading__pic img {
       vertical-align: middle; }
   .heading__title {
-    font-size: 80px;
-    font-weight: 500;
-    font-family: "Euclidflex", sans-serif;
+    text-transform: uppercase;
+    font-size: 55px !important;
+    font-weight: 700;
+    font-family: "Open-Sans", sans-serif;
     line-height: 90px;
     letter-spacing: -1.5px; }
-    .heading__title:first-letter {
-      text-transform: uppercase; }
     .heading__pic ~ .heading__title {
       margin-left: 70px; }
   .heading__desc {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     margin: 30px 0 35px; }
   .heading__link {
     font-size: 16px; }
@@ -758,24 +766,24 @@ b, strong {
   font-weight: 500; }
 
 .mark {
-  background: rgba(44, 130, 174, 0.8);
-  color: #232328;
+  color: rgba(59, 179, 204);
+  font-weight: 700;
   padding: 1px 2px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .mark:hover {
-    background: #2c82ae; }
+    background: #040f23; }
   .mark.disabled {
-    background: rgba(44, 130, 174, 0.5);
+    background: grey;
     cursor: default; }
 
 .mark-bd {
   display: inline-block;
   background: rgba(46, 154, 208, 0.1);
   border: 1px solid rgba(46, 154, 208, 0.3);
-  color: #e75647;
+  color: #17a2b8;
   padding: 0 4px;
   height: 18px;
   line-height: 16px;
@@ -791,26 +799,27 @@ b, strong {
 .section {
   clear: both; }
   .section__heading {
+    text-transform: uppercase;
     margin-bottom: 30px; }
     .section__heading.bdb {
-      border-bottom: 1px dashed #295f7c;
+      border-bottom: 1px solid #c7c7c7;
       padding-bottom: 17px;
       margin-bottom: 13px; }
   .section__title {
-    font: 500 40px "Euclidflex", sans-serif; }
+    font: 500 35px "Open-Sans", sans-serif; }
   .section__status {
     font-family: "Euclidflex", sans-serif;
     font-size: 24px;
     opacity: .5; }
 
 .attn {
-  color: #e75647; }
+  color: #17a2b8; }
 
 .qr__link {
   width: 150px;
   height: 150px;
   display: inline-block;
-  border: 10px solid #2e9ad0; }
+  border: 10px solid #ffffff; }
   .qr__link img {
     width: 100%;
     height: 100%; }
@@ -849,7 +858,7 @@ b, strong {
   z-index: 1000;
   float: left;
   text-align: left;
-  background-color: #2e9ad0;
+  background-color: #ffffff;
   padding: 20px; }
 
 .uib-datepicker-popup .uib-button-bar {
@@ -874,15 +883,15 @@ b, strong {
     touch-action: manipulation;
     cursor: pointer;
     white-space: nowrap;
-    color: #232328;
+    color: #071434;
     min-width: 30px;
     min-height: 30px;
     height: auto;
     font: 500 13px/30px SimplonMono, sans-serif; }
     .uib-datepicker .btn.active {
-      background: #e75647; }
+      background: #17a2b8; }
       .uib-datepicker .btn.active:hover {
-        background: #e75647; }
+        background: #17a2b8; }
     .uib-datepicker .btn:hover {
       background: rgba(0, 0, 0, 0.1); }
     .uib-datepicker .btn[disabled] {
@@ -893,7 +902,7 @@ b, strong {
   .uib-datepicker th {
     text-align: center;
     font-weight: 500;
-    color: #232328;
+    color: #071434;
     font-size: 12px;
     height: 30px;
     line-height: 30px;
@@ -905,8 +914,8 @@ b, strong {
       padding: 0;
       font-style: normal; }
   .uib-datepicker td {
-    color: #232328;
-    border: 1px solid #232328; }
+    color: #071434;
+    border: 1px solid #071434; }
     .uib-datepicker td.h6 {
       font-size: 11px;
       border: none; }
@@ -923,7 +932,7 @@ b, strong {
       font-size: 10px;
       line-height: 1;
       font-weight: 600;
-      color: #232328;
+      color: #071434;
       font-style: normal; }
   .uib-datepicker .uib-right .glyphicon {
     font-size: 0;
@@ -934,7 +943,7 @@ b, strong {
       font-size: 10px;
       line-height: 1;
       font-weight: 600;
-      color: #232328;
+      color: #071434;
       font-style: normal; }
 
 .datepicker-popup .dropdown-menu {
@@ -944,7 +953,7 @@ b, strong {
   z-index: 1000;
   float: left;
   text-align: left;
-  background-color: #2e9ad0;
+  background-color: #ffffff;
   padding: 20px; }
 
 .datepicker-popup .button-bar {
@@ -969,15 +978,15 @@ b, strong {
     touch-action: manipulation;
     cursor: pointer;
     white-space: nowrap;
-    color: #232328;
+    color: #071434;
     min-width: 30px;
     min-height: 30px;
     height: auto;
     font: 500 13px/30px SimplonMono, sans-serif; }
     .datepicker .btn.active {
-      background: #e75647; }
+      background: #17a2b8; }
       .datepicker .btn.active:hover {
-        background: #e75647; }
+        background: #17a2b8; }
     .datepicker .btn:hover {
       background: rgba(0, 0, 0, 0.1); }
     .datepicker .btn[disabled] {
@@ -988,7 +997,7 @@ b, strong {
   .datepicker th {
     text-align: center;
     font-weight: 500;
-    color: #232328;
+    color: #071434;
     font-size: 12px;
     height: 30px;
     line-height: 30px;
@@ -1002,8 +1011,8 @@ b, strong {
     .datepicker th strong {
       font-size: 16px; }
   .datepicker td {
-    color: #232328;
-    border: 1px solid #232328; }
+    color: #071434;
+    border: 1px solid #071434; }
     .datepicker td.h6 {
       font-size: 11px;
       border: none; }
@@ -1018,7 +1027,7 @@ b, strong {
       font-size: 10px;
       line-height: 1;
       font-weight: 600;
-      color: #232328;
+      color: #071434;
       font-style: normal; }
   .datepicker .pull-right .glyphicon {
     font-size: 0;
@@ -1029,7 +1038,7 @@ b, strong {
       font-size: 10px;
       line-height: 1;
       font-weight: 600;
-      color: #232328;
+      color: #071434;
       font-style: normal; }
 
 /*
@@ -1125,7 +1134,7 @@ b, strong {
   background: #26475b; }
 
 .jspDrag {
-  background: #2e9ad0;
+  background: #ffffff;
   opacity: 1;
   border-radius: 0;
   width: 5px;
@@ -1506,7 +1515,7 @@ x-axis
   outline: 0;
   vertical-align: baseline;
   background: transparent;
-  color: #2e9ad0;
+  color: #ffffff;
   overflow: hidden;
 }
 
@@ -2688,7 +2697,7 @@ yx-axis
   margin: 0; }
 
 .mCS-custom .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background: #2e9ad0;
+  background: #ffffff;
   opacity: 1;
   border-radius: 0;
   width: 5px;
@@ -3013,18 +3022,18 @@ corresponds to the arrow we want to display */
   left: -10px; }
 
 .tooltipster-black .tooltipster-box {
-  background: #2e9ad0;
+  background: #ffffff;
   border: none; }
 
 .tooltipster-black .tooltipster-content {
-  color: #232328;
+  color: #071434;
   font-size: 14px; }
 
 .tooltipster-black.tooltipster-sidetip .tooltipster-arrow-border {
-  border-top-color: #2e9ad0; }
+  border-top-color: #ffffff; }
 
 .tooltipster-black.tooltipster-sidetip .tooltipster-arrow-background {
-  border-top-color: #2e9ad0; }
+  border-top-color: #ffffff; }
 
 /* This is the core CSS of Tooltipster */
 /* GENERAL STRUCTURE RULES (do not edit this section) */
@@ -3220,23 +3229,24 @@ corresponds to the arrow we want to display */
 .field {
   font-family: "SimplonMono", sans-serif;
   font-size: 14px;
-  color: #2e9ad0;
-  border: 1px solid #2e9ad0;
+  color: #ffffff;
   height: 40px;
   background: transparent;
   width: 100%;
   padding: 0;
   vertical-align: top;
   text-decoration: none;
+  font-style: italic;
+  background-color: rgba(0,0,0,0.3);
   outline: none; }
   .field::-webkit-input-placeholder {
-    color: #2e9ad0; }
+    color: #ffffff; }
   .field::-moz-placeholder {
-    color: #2e9ad0; }
+    color: #ffffff; }
   .field:-moz-placeholder {
-    color: #2e9ad0; }
+    color: #ffffff; }
   .field:-ms-input-placeholder {
-    color: #2e9ad0 !important; }
+    color: #ffffff !important; }
   .field[disabled] {
     opacity: .6; }
   .field-oneLine {
@@ -3252,19 +3262,22 @@ corresponds to the arrow we want to display */
   line-height: 30px;
   font-size: 16px; }
   .btn-view-chart {
-    background: #2e9ad0;
-    color: #232328;
+    background: #040f23;
+    color: white;
     width: 130px;
     text-align: center;
     float: right; }
     .btn-view-chart:hover {
-      background: #e75647; }
+      background: #17a2b8; }
   .btn-blocks {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     display: inline-block;
-    background: #2e9ad0;
-    color: #232328;
+    background: #040f23;
+    color: white;
     text-align: center;
-    padding: 0 15px;
+    padding: 10px 18px;
+    height: auto;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -3273,23 +3286,23 @@ corresponds to the arrow we want to display */
       text-align: left;
       margin: 50px 0 20px; }
     .btn-blocks:hover {
-      background: #e75647; }
+      background: #17a2b8; }
   .btn-h-lg {
     height: 40px;
     line-height: 40px; }
   .btn-blue {
-    background: #2e9ad0;
-    color: #232328; }
+    background: #ffffff;
+    color: #071434; }
     .btn-blue:not(.preload-btn):hover {
-      background: #e75647; }
+      background: #17a2b8; }
   .btn-transp {
     background: transparent;
-    color: #2e9ad0; }
+    color: #ffffff; }
     .btn-transp:hover {
-      color: #e75647; }
+      color: #17a2b8; }
 
 .header {
-  background: #232328;
+  background: #071434;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3311,7 +3324,6 @@ corresponds to the arrow we want to display */
     padding: 0;
     order: 2;
     display: flex;
-    justify-content: space-between;
     max-width: inherit;
     width: 100%; }
     .header .box:before, .header .box:after {
@@ -3324,7 +3336,8 @@ corresponds to the arrow we want to display */
   display: block;
   float: left;
   margin-left: 40px;
-  margin-right: 10px;
+  margin-right: 40px;
+  margin-bottom: 7px;
   order: 0; }
   .logo img {
     vertical-align: top; }
@@ -3339,25 +3352,28 @@ corresponds to the arrow we want to display */
 
 .nav {
   float: left; }
+.nav__item:last-child {
+  border: none !important;
+}
+
+
   .nav__item {
     display: inline-block;
-    padding: 13px 5px;
-    margin: 0 5px;
+    padding: 6px 12px;
+    border-right: 1px solid #c7c7c7;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 14px;
     font-weight: 500;
-    border-top: 3px solid transparent;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
     .nav__item:hover {
-      color: #232328;
-      background-color: #e75647;
-      border-color: transparent; }
+      border-right: 1px solid white;
+      background-color: #040f23; }
     .nav__item.active {
-      border-color: #e75647; }
+      color: #17a2b8; }
 
 .header__lang-switcher {
   order: 3;
@@ -3372,8 +3388,8 @@ corresponds to the arrow we want to display */
   position: relative; }
   .language-switcher:hover .language-switcher__selected,
   .language-switcher:hover .language-switcher__item {
-    background-color: #e75647;
-    color: #232328; }
+    background-color: #17a2b8;
+    color: #071434; }
     @media only screen and (max-width: 1024px) {
       .language-switcher:hover .language-switcher__selected,
       .language-switcher:hover .language-switcher__item {
@@ -3403,8 +3419,8 @@ corresponds to the arrow we want to display */
       .language-switcher__selected, .language-switcher__item {
         max-width: none; } }
   .language-switcher__item:hover {
-    background: #232328 !important;
-    color: #e75647 !important; }
+    background: #071434 !important;
+    color: #17a2b8 !important; }
   .language-switcher__container {
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
@@ -3441,7 +3457,7 @@ corresponds to the arrow we want to display */
   .header .box {
     flex-direction: column;
     margin: auto;
-    width: auto; } }
+  } }
 
 .footer {
   position: relative;
@@ -3453,8 +3469,12 @@ corresponds to the arrow we want to display */
 .list {
   font-size: 16px; }
   .list .fsz-13 {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 700;
     font-size: 13px; }
   .list .fsz-16 {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 500;
     font-size: 16px; }
   .list-blocks {
     overflow: hidden; }
@@ -3462,13 +3482,13 @@ corresponds to the arrow we want to display */
       float: left;
       width: 180px;
       margin-right: 20px;
-      border: 1px solid #2e9ad0;
+      border: 1px solid #ffffff;
       text-align: center;
       padding: 24px 0 0;
       height: 90px; }
       .list-blocks__left:hover {
-        background: #2e9ad0;
-        color: #232328; }
+        background: #ffffff;
+        color: #071434; }
     .list-blocks__right {
       float: left;
       overflow: hidden;
@@ -3491,11 +3511,12 @@ corresponds to the arrow we want to display */
     display: block;
     overflow: hidden; }
   .list-transactions__right {
+    font-family: "Open-Sans", sans-serif;
     float: right;
-    width: 100px;
-    text-align: right;
-    margin-left: 18%; }
+    width: 200px;
+    text-align: right; }
   .list-transactions .hash__title {
+    font-family: "Open-Sans", sans-serif;
     float: left;
     padding-right: 5px; }
   .list-transactions .hash__data {
@@ -3517,10 +3538,14 @@ corresponds to the arrow we want to display */
   .list-transactions .labeled {
     font-size: 13px; }
   .list__left {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     float: left;
     width: 50%;
     line-height: 30px; }
   .list__right {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     width: 50%;
     float: right;
     text-align: right;
@@ -3602,8 +3627,8 @@ corresponds to the arrow we want to display */
   .storage__btnWrap {
     text-align: right; }
   .storage__btn:hover {
-    background-color: #e75647;
-    color: #232328; }
+    background-color: #17a2b8;
+    color: #071434; }
     @media only screen and (max-width: 1024px) {
       .storage__btn:hover {
         background-color: inherit;
@@ -3669,7 +3694,7 @@ corresponds to the arrow we want to display */
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
   .copyBtn:hover:before {
-    color: #e75647; }
+    color: #17a2b8; }
 
 .copyText {
   overflow: hidden;
@@ -3687,8 +3712,8 @@ corresponds to the arrow we want to display */
   right: 0;
   text-align: center;
   z-index: 10;
-  background: #2e9ad0;
-  color: #232328;
+  background: #ffffff;
+  color: #071434;
   font-size: 14px;
   line-height: 24px;
   padding: 0 5px;
@@ -3729,7 +3754,8 @@ corresponds to the arrow we want to display */
   vertical-align: top; }
 
 .table {
-  font-size: 14px; }
+  font-family: "Open-Sans", sans-serif;
+  font-size: 16px; }
   .table__moreArrow {
     position: absolute;
     left: 0;
@@ -3745,20 +3771,21 @@ corresponds to the arrow we want to display */
       position: relative;
       font-size: 12px;
       opacity: .5;
-      color: #2e9ad0; }
+      color: #ffffff; }
 
 .tr {
   padding: 6px 2px;
   overflow: hidden; }
   .tr:hover {
-    background: rgba(46, 154, 208, 0.12); }
+    background: #040f23 }
   .trMain {
     overflow: hidden; }
   .trMore {
     display: none;
     overflow: hidden; }
   .tr-head {
-    border-bottom: 1px dashed #253b4a;
+    font-family: "Open-Sans", sans-serif;
+    border-bottom: 1px solid #c7c7c7;
     padding: 0 0 15px !important;
     margin-bottom: 14px !important; }
     .tr-head:hover {
@@ -3776,7 +3803,7 @@ corresponds to the arrow we want to display */
   .tr.open .trMain .mark-bd {
     background: rgba(46, 154, 208, 0.2); }
   .tr.open .trMain .mark-bd.disabled {
-    color: #2e9ad0; }
+    color: #ffffff; }
 
 .td, .th {
   float: left;
@@ -3791,7 +3818,7 @@ corresponds to the arrow we want to display */
       cursor: pointer;
       background: rgba(46, 154, 208, 0.2); }
     .td.hover:hover .mark-bd.disabled, .th.hover:hover .mark-bd.disabled {
-      color: #2e9ad0; }
+      color: #ffffff; }
 
 .th {
   font-size: 21px;
@@ -3873,13 +3900,13 @@ corresponds to the arrow we want to display */
   .tumbler.blue-gray .tumbler__slider {
     background: #656569; }
     .tumbler.blue-gray .tumbler__slider:before {
-      background: #232328; }
+      background: #071434; }
   .tumbler.blue-gray .tumbler__text {
     color: rgba(46, 154, 208, 0.8); }
   .tumbler.blue-gray .tumbler__input:checked ~ .tumbler__slider {
-    background: #2e9ad0; }
+    background: #ffffff; }
   .tumbler.blue-gray .tumbler__input:checked ~ .tumbler__text {
-    color: #2e9ad0; }
+    color: #ffffff; }
   .tumbler.c-black .tumbler__input ~ .tumbler__text {
     color: #9d9d9d; }
   .tumbler.c-black .tumbler__input + .tumbler__text {
@@ -3896,18 +3923,17 @@ corresponds to the arrow we want to display */
   height: 30px;
   line-height: 30px;
   width: 100%;
-  background: #2e9ad0; }
+  background: #040f23; }
   .loader__text {
     position: relative;
     z-index: 1;
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
-    color: #232328;
+    color: white;
     padding: 0 10px;
     height: 20px;
-    line-height: 20px;
-    background: #2e9ad0; }
+    line-height: 20px; }
   .loader__bg {
     position: absolute;
     top: 0;
@@ -3921,7 +3947,7 @@ corresponds to the arrow we want to display */
   width: 29px;
   height: 29px;
   position: relative;
-  border: 4px solid #2e9ad0;
+  border: 4px solid #ffffff;
   animation: cssload-loader 2.3s infinite ease;
   -o-animation: cssload-loader 2.3s infinite ease;
   -ms-animation: cssload-loader 2.3s infinite ease;
@@ -3947,12 +3973,12 @@ corresponds to the arrow we want to display */
     width: 19px;
     height: 19px; }
   .preload-dark {
-    border-color: #232328; }
+    border-color: #071434; }
   .preloadInner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #2e9ad0;
+    background-color: #ffffff;
     animation: cssload-loader-inner 2.3s infinite ease-in;
     -o-animation: cssload-loader-inner 2.3s infinite ease-in;
     -ms-animation: cssload-loader-inner 2.3s infinite ease-in;
@@ -4102,10 +4128,10 @@ corresponds to the arrow we want to display */
   line-height: 31px;
   font-weight: 500;
   padding: 0 15px;
-  border: 1px solid #2e9ad0; }
+  border: 1px solid #ffffff; }
   .date__btn:hover {
-    border-color: #e75647;
-    color: #e75647; }
+    border-color: #17a2b8;
+    color: #17a2b8; }
 
 .date__text {
   overflow: hidden; }
@@ -4116,7 +4142,7 @@ corresponds to the arrow we want to display */
     overflow: hidden;
     text-align: right; }
   .date__textField {
-    color: #2e9ad0;
+    color: #ffffff;
     font-size: 16px;
     font-family: "SimplonMono", sans-serif;
     background: transparent;
@@ -4150,24 +4176,24 @@ corresponds to the arrow we want to display */
     line-height: 28px;
     text-align: center;
     border: 4px solid transparent;
-    color: #2e9ad0;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 500;
     margin-right: 4px; }
     .pag__item:hover {
-      background-color: #e75647;
-      color: #232328;
-      border-color: #232328; }
+      background-color: #17a2b8;
+      color: #071434;
+      border-color: #071434; }
     .pag__item.active {
-      background-color: #2e9ad0;
-      border-color: #2e9ad0;
-      color: #232328; }
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #071434; }
       .pag__item.active:hover {
         cursor: default; }
     .pag__item.no-hover:hover {
-      background-color: #232328;
-      color: #2e9ad0;
-      border-color: #232328; }
+      background-color: #071434;
+      color: #ffffff;
+      border-color: #071434; }
     .pag__item.next {
       margin-left: 5px; }
 
@@ -4182,9 +4208,9 @@ corresponds to the arrow we want to display */
   height: 34px;
   font-size: 12px;
   line-height: 32px;
-  color: #2e9ad0;
+  color: #ffffff;
   padding: 0 15px;
-  border: 1px solid #2e9ad0; }
+  border: 1px solid #ffffff; }
   .pagination__item > * {
     vertical-align: baseline;
     display: inline-block; }
@@ -4215,18 +4241,18 @@ corresponds to the arrow we want to display */
     -o-transform: rotate(180deg);
     transform: rotate(180deg); }
   .pagination__item:hover {
-    background-color: #e75647;
-    color: #232328;
-    border-color: #e75647; }
+    background-color: #17a2b8;
+    color: #071434;
+    border-color: #17a2b8; }
   .pagination__itemField {
-    color: #2e9ad0;
+    color: #ffffff;
     width: 50px;
     text-transform: none;
     font-size: 14px;
     line-height: 38px;
     height: 40px;
     background: transparent !important;
-    border: 1px solid #2e9ad0;
+    border: 1px solid #ffffff;
     text-align: center;
     padding: 0 2px; }
     .pagination__itemField::-webkit-input-placeholder {
@@ -4238,28 +4264,28 @@ corresponds to the arrow we want to display */
     .pagination__itemField:-ms-input-placeholder {
       color: rgba(46, 154, 208, 0.2) !important; }
     .pagination__itemField.error {
-      border-color: #e75647; }
+      border-color: #17a2b8; }
   .pagination__itemText {
     padding: 0 5px; }
 
 .error {
   display: inline-block;
-  background: #e75647;
+  background: #17a2b8;
   padding: 0 10px; }
   .error__icon {
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
-    color: #232328; }
+    color: #071434; }
   .error__text {
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
-    color: #232328; }
+    color: #071434; }
     .error__text.fsz-12 {
       font-size: 12px; }
     .error__text.c-red {
-      color: #e75647; }
+      color: #17a2b8; }
     .error__text.pos-abs-top-right {
       position: absolute;
       bottom: 100%;
@@ -4268,13 +4294,13 @@ corresponds to the arrow we want to display */
 
 .search__field.error {
   background: inherit;
-  border-color: #e75647; }
+  border-color: #17a2b8; }
 
 .alert {
   padding: 20px;
   margin: 20px 0;
   font-size: 0.875rem;
-  border: 1px solid #e75647; }
+  border: 1px solid #17a2b8; }
   .alert-danger {
     background: rgba(231, 86, 71, 0.2);
     color: #e75546; }
@@ -4375,13 +4401,13 @@ corresponds to the arrow we want to display */
     opacity: 1; }
   .dd.open .ddTrigger:after {
     border-top: 0;
-    border-bottom: 6px solid #2e9ad0; }
+    border-bottom: 6px solid #ffffff; }
   .dd .num {
     position: absolute;
     z-index: 1;
     height: 18px;
     width: 18px;
-    color: #232328;
+    color: #071434;
     font-size: 13px;
     font-weight: 500;
     text-align: center;
@@ -4394,7 +4420,7 @@ corresponds to the arrow we want to display */
     height: 27px;
     line-height: 25px;
     font-size: 16px;
-    color: #2e9ad0;
+    color: #ffffff;
     border: 1px solid rgba(46, 154, 208, 0.3);
     background: #242f39;
     padding-left: 15px;
@@ -4407,7 +4433,7 @@ corresponds to the arrow we want to display */
       top: 50%;
       height: 0;
       width: 0;
-      border-top: 6px solid #2e9ad0;
+      border-top: 6px solid #ffffff;
       border-left: 6px solid transparent;
       border-right: 6px solid transparent;
       -webkit-transform: translate(0, -50%);
@@ -4434,11 +4460,11 @@ corresponds to the arrow we want to display */
       padding: 4px 15px;
       font-size: 13px;
       line-height: 1.25;
-      color: #2e9ad0;
+      color: #ffffff;
       border-bottom: 1px solid rgba(46, 154, 208, 0.3); }
       .ddMenu__link:active, .ddMenu__link:hover {
-        background: #2e9ad0;
-        color: #232328; }
+        background: #ffffff;
+        color: #071434; }
       .ddMenu__linkRow {
         display: block;
         margin-bottom: 2px; }
@@ -4561,7 +4587,7 @@ corresponds to the arrow we want to display */
 .nav-tabs {
   display: block;
   font-size: 0;
-  border-bottom: 1px solid #2e9ad0; }
+  border-bottom: 1px solid #ffffff; }
 
 .nav-stacked .nav-item {
   display: block;
@@ -4594,9 +4620,9 @@ corresponds to the arrow we want to display */
     bottom: -1px;
     left: -15px;
     right: -15px;
-    background: #2e9ad0;
-    border-left: 15px solid #232328;
-    border-right: 15px solid #232328;
+    background: #ffffff;
+    border-left: 15px solid #071434;
+    border-right: 15px solid #071434;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -4611,7 +4637,7 @@ corresponds to the arrow we want to display */
     display: block;
     position: relative;
     z-index: 1;
-    color: #2e9ad0;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 10px;
@@ -4667,19 +4693,19 @@ corresponds to the arrow we want to display */
 
 .table__sortingUp {
   border-width: 0 3px 4px 3px;
-  border-color: transparent transparent #2e9ad0 transparent;
+  border-color: transparent transparent #ffffff transparent;
   top: 0; }
 
 .table__sortingDown {
   border-width: 4px 3px 0 3px;
-  border-color: #2e9ad0 transparent transparent transparent;
+  border-color: #ffffff transparent transparent transparent;
   bottom: 0; }
 
 .search__wrap {
   position: relative;
   float: right;
   background: url("../images/search.png") 13px 50% no-repeat;
-  min-width: 450px; }
+  min-width: 600px; }
   .search__wrap-token {
     max-width: 725px;
     width: 100%;
@@ -4702,8 +4728,8 @@ corresponds to the arrow we want to display */
   right: 0;
   padding: 10px;
   z-index: 2;
-  background: #2e9ad0;
-  color: #232328;
+  background: #ffffff;
+  color: #071434;
   display: none; }
   .search__notFound.active {
     display: block; }
@@ -4716,7 +4742,7 @@ corresponds to the arrow we want to display */
   line-height: 38px;
   right: 15px;
   font-size: 16px;
-  color: #2e9ad0;
+  color: #ffffff;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -4732,7 +4758,7 @@ corresponds to the arrow we want to display */
   left: 0;
   right: 0;
   z-index: 2;
-  background: #2e9ad0;
+  background: #ffffff;
   display: none; }
   .search__results.active {
     display: block; }
@@ -4740,10 +4766,10 @@ corresponds to the arrow we want to display */
     display: block;
     padding: 15px 18px;
     font-size: 16px;
-    color: #232328; }
+    color: #071434; }
     .search__resultsItemLink:hover {
-      color: #e75647;
-      background-color: #232328; }
+      color: #17a2b8;
+      background-color: #071434; }
 
 .search__box {
   display: flex;
@@ -4799,11 +4825,13 @@ corresponds to the arrow we want to display */
   display: none; }
 
 .trans-textarea {
+  font-family: "Open Sans";
+  background: #040f23;
   margin-bottom: 18px;
-  border: 1px solid #2e9ad0;
-  padding: 15px 15px 15px 20px; }
+  padding: 15px 15px 15px 20px; 
+}
   .trans-textarea.error {
-    border: 1px solid #e75647;
+    border: 1px solid #17a2b8;
     background-color: transparent;
     display: block;
     position: relative; }
@@ -4812,11 +4840,14 @@ corresponds to the arrow we want to display */
       position: absolute;
       right: 0;
       bottom: 100%;
-      color: #e75647;
+      color: #17a2b8;
       margin: 0 0 5px 0;
       font-size: 14px; }
   .trans-textarea .title {
-    margin-bottom: 17px; }
+    margin-bottom: 17px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-style: italic; }
   .trans-textarea .body {
     height: 230px;
     overflow: auto;
@@ -4831,7 +4862,7 @@ corresponds to the arrow we want to display */
   padding: 0; }
   .btn-wrap .error-msg {
     display: block;
-    color: #e75647;
+    color: #17a2b8;
     font-size: 14px;
     margin: 0 0 0 50px; }
 
@@ -4859,7 +4890,7 @@ corresponds to the arrow we want to display */
     margin-bottom: 28px; }
   .summaryAddress__specialItem {
     margin-bottom: 18px;
-    border: 1px solid #2e9ad0;
+    border: 1px solid #ffffff;
     padding: 15px 15px 15px 20px; }
     .summaryAddress__specialItemTitle {
       margin-bottom: 17px; }
@@ -4936,7 +4967,6 @@ corresponds to the arrow we want to display */
     font-size: 14px; }
 
 .section-appStatus {
-  margin-top: 42px;
   margin-bottom: 60px; }
   .section-appStatusWrap {
     overflow: hidden;
@@ -4945,8 +4975,6 @@ corresponds to the arrow we want to display */
       padding-right: 45px; }
     .section-appStatusWrap .col:nth-child(2) {
       padding-left: 20px; }
-  .section-appStatus .list__item {
-    margin-bottom: 17px; }
   .section-appStatus .link {
     display: inline-block;
     vertical-align: text-bottom;
@@ -5064,13 +5092,13 @@ corresponds to the arrow we want to display */
       display: none;
       float: left;
       margin-right: 3px;
-      border-right: 3px solid #232328;
+      border-right: 3px solid #071434;
       width: 17px;
       height: 18px;
       line-height: 18px;
       top: auto;
       font-size: 16px;
-      color: #232328;
+      color: #071434;
       text-align: center;
       font-weight: 600;
       padding-left: 2px; }
@@ -5112,8 +5140,8 @@ corresponds to the arrow we want to display */
 .transactions__info {
   display: inline-block;
   vertical-align: top;
-  background: #2e9ad0;
-  color: #232328;
+  background: #ffffff;
+  color: #071434;
   text-transform: uppercase;
   height: 30px;
   line-height: 30px;
@@ -5121,10 +5149,10 @@ corresponds to the arrow we want to display */
   margin-top: 4px; }
   .transactions__info.transp {
     background: transparent;
-    border: 1px solid #2e9ad0;
-    color: #2e9ad0; }
+    border: 1px solid #ffffff;
+    color: #ffffff; }
   .transactions__info.error {
-    background: #e75647; }
+    background: #17a2b8; }
 
 .transactions__contract {
   margin-bottom: 26px; }
@@ -5136,7 +5164,7 @@ corresponds to the arrow we want to display */
     margin-bottom: 28px; }
   .transactions__contractItem {
     margin-bottom: 18px;
-    border: 1px solid #2e9ad0;
+    border: 1px solid #ffffff;
     padding: 15px 15px 15px 20px; }
     .transactions__contractItemTitle {
       margin-bottom: 17px; }
@@ -5198,7 +5226,7 @@ corresponds to the arrow we want to display */
 
 .insight__chartPeriod {
   display: inline-block;
-  color: #2e9ad0;
+  color: #ffffff;
   border: 1px solid transparent;
   height: 33px;
   line-height: 31px;
@@ -5210,15 +5238,15 @@ corresponds to the arrow we want to display */
     overflow: hidden;
     text-align: right; }
   .insight__chartPeriod:hover {
-    background: #e75647;
-    border-color: #e75647;
-    color: #232328; }
+    background: #17a2b8;
+    border-color: #17a2b8;
+    color: #071434; }
   .insight__chartPeriod.active {
-    border-color: #2e9ad0;
+    border-color: #ffffff;
     cursor: default; }
     .insight__chartPeriod.active:hover {
       background: transparent;
-      color: #2e9ad0; }
+      color: #ffffff; }
 
 .tockenSummary {
   overflow: hidden;
@@ -5264,7 +5292,7 @@ corresponds to the arrow we want to display */
     text-transform: uppercase;
     width: 80px;
     height: 40px;
-    color: #2e9ad0;
+    color: #ffffff;
     text-align: center;
     background: transparent;
     position: absolute;
@@ -5272,7 +5300,7 @@ corresponds to the arrow we want to display */
     right: 0;
     z-index: 2; }
     .tockenSummary__sbm:hover {
-      color: #e75647; }
+      color: #17a2b8; }
 
 .section-tockenTabs .total {
   float: left;
@@ -5286,13 +5314,13 @@ corresponds to the arrow we want to display */
 
 .section-tockenTabs .download {
   font-size: 13px;
-  color: #2e9ad0;
+  color: #ffffff;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .section-tockenTabs .download:hover {
-    color: #e75647; }
+    color: #17a2b8; }
   .section-tockenTabs .download > * {
     display: inline-block;
     vertical-align: baseline; }
@@ -5306,11 +5334,11 @@ corresponds to the arrow we want to display */
   padding: 0 15px;
   line-height: 0;
   height: 34px;
-  border: 1px solid #2e9ad0; }
+  border: 1px solid #ffffff; }
   .section-tockenTabs .btn-open:hover {
-    background-color: #e75647;
-    color: #232328;
-    border-color: #e75647; }
+    background-color: #17a2b8;
+    color: #071434;
+    border-color: #17a2b8; }
     .section-tockenTabs .btn-open:hover:hover .show-chart-text {
       background-image: url(../images/pie-hover.png); }
   .section-tockenTabs .btn-open .show-chart-text {
@@ -5416,7 +5444,7 @@ corresponds to the arrow we want to display */
   .section-tockenPie .chart__left {
     float: left;
     width: 395px;
-    border-right: 1px solid #2e9ad0;
+    border-right: 1px solid #ffffff;
     padding: 0 40px 0 10px;
     text-align: center;
     height: 350px; }
@@ -5426,7 +5454,7 @@ corresponds to the arrow we want to display */
     font-size: 21px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #2e9ad0;
+    color: #ffffff;
     padding: 66px 30px 22px;
     border-bottom: 1px dashed #253b4a;
     margin: auto; }
@@ -5476,7 +5504,7 @@ corresponds to the arrow we want to display */
       line-height: 38px;
       padding: 0 12px;
       font-size: 14px;
-      border: 1px solid #2e9ad0;
+      border: 1px solid #ffffff;
       color: rgba(46, 154, 208, 0.2); }
     .section-tockenReadSmartContracts .btn-blue {
       height: 30px;
@@ -5484,8 +5512,8 @@ corresponds to the arrow we want to display */
       font-size: 16px;
       font-family: 'Myriad Pro', sans-serif;
       padding: 0 45px;
-      color: #232328;
-      background: #2e9ad0; }
+      color: #071434;
+      background: #ffffff; }
   .section-tockenReadSmartContracts .field__wrap {
     margin-top: -2px;
     vertical-align: top !important; }
@@ -5499,8 +5527,8 @@ corresponds to the arrow we want to display */
       line-height: 38px;
       padding: 0 12px;
       font-size: 14px;
-      border: 1px solid #2e9ad0;
-      color: #2e9ad0; }
+      border: 1px solid #ffffff;
+      color: #ffffff; }
       .section-tockenReadSmartContracts .field-transp::-webkit-input-placeholder {
         color: rgba(46, 154, 208, 0.2); }
       .section-tockenReadSmartContracts .field-transp::-moz-placeholder {
@@ -5510,12 +5538,12 @@ corresponds to the arrow we want to display */
       .section-tockenReadSmartContracts .field-transp:-ms-input-placeholder {
         color: rgba(46, 154, 208, 0.2) !important; }
     .section-tockenReadSmartContracts .field.error {
-      border-color: #e75647;
+      border-color: #17a2b8;
       background: transparent; }
   .section-tockenReadSmartContracts .error__text {
     font-size: 11px;
     display: block;
-    color: #e75647;
+    color: #17a2b8;
     line-height: 1.2;
     padding-top: 4px;
     max-width: 200px; }
@@ -5564,7 +5592,7 @@ corresponds to the arrow we want to display */
     height: 17px;
     line-height: 17px;
     text-align: center;
-    color: #232328; }
+    color: #071434; }
     .section-tokenTransfers .status.bg-orange {
       background: #de5543; }
     .section-tokenTransfers .status.bg-green {

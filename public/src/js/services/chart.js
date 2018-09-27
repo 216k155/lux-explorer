@@ -11,14 +11,14 @@ angular.module('insight.chart')
                 datasetOverride : [{
                     defaultFontFamily: 'SimplonMono',
                     yAxisID: 'y-axis-1' ,
-                    borderColor: '#2e9ad0',
+                    borderColor: '#ffffff',
                     borderWidth: 1,
-                    pointBorderColor: '#2e9ad0',
-                    pointBackgroundColor: '#2e9ad0',
+                    pointBorderColor: '#ffffff',
+                    pointBackgroundColor: '#ffffff',
                     pointBorderWidth: 0,
                     pointRadius: 0,
-                    pointHoverBackgroundColor: '#e75647',
-                    pointHoverBorderColor: '#e75647',
+                    pointHoverBackgroundColor: '#17a2b8',
+                    pointHoverBorderColor: '#17a2b8',
                     pointHoverBorderWidth: 1,
                     pointHitRadius: 10,
                     pointStyle: 'rect',
@@ -26,15 +26,15 @@ angular.module('insight.chart')
                 }],
                 options : {
                     tooltips:{
-                        backgroundColor: '#2e9ad0',
+                        backgroundColor: '#ffffff',
                         titleFontFamily: 'SimplonMono',
                         titleFontSize: 12,
                         titleFontStyle: '500',
-                        titleFontColor: '#232328',
+                        titleFontColor: '#071434',
                         bodyFontFamily: 'SimplonMono',
                         bodyFontSize: 12,
                         bodyFontStyle: '400',
-                        bodyFontColor: '#232328',
+                        bodyFontColor: '#071434',
                         caretSize: 5,
                         cornerRadius: 3,
                         displayColors: false,
@@ -58,7 +58,7 @@ angular.module('insight.chart')
                                 zeroLineColor: '#26475b'
                             },
                             ticks: {
-                                fontColor:'#2e9ad0',
+                                fontColor:'#ffffff',
                                 fontFamily: 'SimplonMono',
                                 fontSize: 14,
                                 padding: 20
@@ -82,7 +82,7 @@ angular.module('insight.chart')
                                 zeroLineColor: '#26475b'
                             },
                             ticks: {
-                                fontColor: '#2e9ad0',
+                                fontColor: '#ffffff',
                                 fontSize: 10,
                                 fontFamily: 'SimplonMono'
                             }

@@ -5,18 +5,18 @@
   height: 30px;
   line-height: 30px;
   width: 100%;
-  background: #2e9ad0; }
+  background: #ffffff; }
   .loader__text {
     position: relative;
     z-index: 1;
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
-    color: #232328;
+    color: #071434;
     padding: 0 10px;
     height: 20px;
     line-height: 20px;
-    background: #2e9ad0; }
+    background: #ffffff; }
   .loader__bg {
     position: absolute;
     top: 0;
@@ -30,7 +30,7 @@
   width: 29px;
   height: 29px;
   position: relative;
-  border: 4px solid #2e9ad0;
+  border: 4px solid #ffffff;
   animation: cssload-loader 2.3s infinite ease;
   -o-animation: cssload-loader 2.3s infinite ease;
   -ms-animation: cssload-loader 2.3s infinite ease;
@@ -56,12 +56,12 @@
     width: 19px;
     height: 19px; }
   .preload-dark {
-    border-color: #232328; }
+    border-color: #071434; }
   .preloadInner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #2e9ad0;
+    background-color: #ffffff;
     animation: cssload-loader-inner 2.3s infinite ease-in;
     -o-animation: cssload-loader-inner 2.3s infinite ease-in;
     -ms-animation: cssload-loader-inner 2.3s infinite ease-in;
@@ -214,9 +214,9 @@
 body {
   height: 100%;
   min-width: 600px;
-  color: #2e9ad0;
+  color: #ffffff;
   font: 400 16px "SimplonMono", sans-serif;
-  background: #232328; }
+  background: #071434; }
 
 .header {
   position: absolute;
@@ -224,7 +224,7 @@ body {
   left: 0;
   right: 0;
   padding: 50px 0;
-  background: #232328;
+  background: #071434;
   overflow: hidden; }
 
 .logo {
@@ -232,6 +232,7 @@ body {
   float: left;
   margin-left: 40px; }
   .logo img {
+    width: 40%;
     vertical-align: top; }
   .logo .logoPic-hover {
     display: none; }
