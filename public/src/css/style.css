@@ -629,8 +629,9 @@ b, strong {
   max-width: 100%; }
 
 .content {
-  max-width: 1420px;
-  margin: 0 auto; }
+  /* max-width: 1420px;
+  margin: 0 auto;  */
+}
   .content .box:before, .content .box:after {
     content: " ";
     display: table; }
@@ -672,14 +673,21 @@ b, strong {
         width: 100%;
         padding-bottom: 8px; }
         .content__list-blockchain .item-full .label {
+          font-family: "Open-Sans", sans-serif;
+          text-transform: uppercase;
           font-size: 32px; }
         .content__list-blockchain .item-full .labeled {
+          font-family: "Open-Sans", sans-serif;
+          text-transform: uppercase;
           font-size: 18px; }
     .content__list-blockchain .label {
       font-size: 27px;
-      font-family: "SimplonMono", sans-serif;
+      font-weight: 700;
+      font-family: "Open-Sans", sans-serif;
       margin-bottom: 5px; }
     .content__list-blockchain .labeled {
+      font-family: "Open-Sans", sans-serif;
+      text-transform: uppercase;
       font-size: 16px;
       opacity: .6; }
     .content__list-blockchain .limiter {
@@ -698,10 +706,9 @@ b, strong {
       margin-bottom: 28px; }
 
 .heading {
-  overflow: hidden;
-  margin-bottom: 20px; }
+  overflow: hidden; }
   .heading.margin1 {
-    margin-top: 115px; }
+    margin-top: 30px; }
   .heading-width-900 {
     max-width: 900px; }
   .heading__pic {
@@ -711,16 +718,17 @@ b, strong {
     .heading__pic img {
       vertical-align: middle; }
   .heading__title {
-    font-size: 80px;
-    font-weight: 500;
-    font-family: "Euclidflex", sans-serif;
+    text-transform: uppercase;
+    font-size: 55px !important;
+    font-weight: 700;
+    font-family: "Open-Sans", sans-serif;
     line-height: 90px;
     letter-spacing: -1.5px; }
-    .heading__title:first-letter {
-      text-transform: uppercase; }
     .heading__pic ~ .heading__title {
       margin-left: 70px; }
   .heading__desc {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     margin: 30px 0 35px; }
   .heading__link {
     font-size: 16px; }
@@ -755,17 +763,17 @@ b, strong {
   font-weight: 500; }
 
 .mark {
-  background: rgba(44, 130, 174, 0.8);
-  color: #071434;
+  color: rgba(59, 179, 204);
+  font-weight: 700;
   padding: 1px 2px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .mark:hover {
-    background: #2c82ae; }
+    background: #040f23; }
   .mark.disabled {
-    background: rgba(44, 130, 174, 0.5);
+    background: grey;
     cursor: default; }
 
 .mark-bd {
@@ -788,13 +796,14 @@ b, strong {
 .section {
   clear: both; }
   .section__heading {
+    text-transform: uppercase;
     margin-bottom: 30px; }
     .section__heading.bdb {
-      border-bottom: 1px dashed #295f7c;
+      border-bottom: 1px solid #c7c7c7;
       padding-bottom: 17px;
       margin-bottom: 13px; }
   .section__title {
-    font: 500 40px "Euclidflex", sans-serif; }
+    font: 500 35px "Open-Sans", sans-serif; }
   .section__status {
     font-family: "Euclidflex", sans-serif;
     font-size: 24px;
@@ -3218,13 +3227,14 @@ corresponds to the arrow we want to display */
   font-family: "SimplonMono", sans-serif;
   font-size: 14px;
   color: #ffffff;
-  border: 1px solid #ffffff;
   height: 40px;
   background: transparent;
   width: 100%;
   padding: 0;
   vertical-align: top;
   text-decoration: none;
+  font-style: italic;
+  background-color: rgba(0,0,0,0.3);
   outline: none; }
   .field::-webkit-input-placeholder {
     color: #ffffff; }
@@ -3249,19 +3259,22 @@ corresponds to the arrow we want to display */
   line-height: 30px;
   font-size: 16px; }
   .btn-view-chart {
-    background: #ffffff;
-    color: #071434;
+    background: #040f23;
+    color: white;
     width: 130px;
     text-align: center;
     float: right; }
     .btn-view-chart:hover {
       background: #17a2b8; }
   .btn-blocks {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     display: inline-block;
-    background: #ffffff;
-    color: #071434;
+    background: #040f23;
+    color: white;
     text-align: center;
-    padding: 0 15px;
+    padding: 10px 18px;
+    height: auto;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -3308,7 +3321,6 @@ corresponds to the arrow we want to display */
     padding: 0;
     order: 2;
     display: flex;
-    justify-content: space-between;
     max-width: inherit;
     width: 100%; }
     .header .box:before, .header .box:after {
@@ -3321,10 +3333,10 @@ corresponds to the arrow we want to display */
   display: block;
   float: left;
   margin-left: 40px;
-  margin-right: 10px;
+  margin-right: 40px;
+  margin-bottom: 7px;
   order: 0; }
   .logo img {
-    width: 40%;
     vertical-align: top; }
   .logo .logoPic-hover {
     display: none; }
@@ -3337,25 +3349,28 @@ corresponds to the arrow we want to display */
 
 .nav {
   float: left; }
+.nav__item:last-child {
+  border: none !important;
+}
+
+
   .nav__item {
     display: inline-block;
-    padding: 13px 5px;
-    margin: 0 5px;
+    padding: 6px 12px;
+    border-right: 1px solid #c7c7c7;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 14px;
     font-weight: 500;
-    border-top: 3px solid transparent;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
     .nav__item:hover {
-      color: #071434;
-      background-color: #17a2b8;
-      border-color: transparent; }
+      border-right: 1px solid white;
+      background-color: #040f23; }
     .nav__item.active {
-      border-color: #17a2b8; }
+      color: #17a2b8; }
 
 .header__lang-switcher {
   order: 3;
@@ -3439,7 +3454,7 @@ corresponds to the arrow we want to display */
   .header .box {
     flex-direction: column;
     margin: auto;
-    width: auto; } }
+  } }
 
 .footer {
   position: relative;
@@ -3451,8 +3466,12 @@ corresponds to the arrow we want to display */
 .list {
   font-size: 16px; }
   .list .fsz-13 {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 700;
     font-size: 13px; }
   .list .fsz-16 {
+    font-family: "Open-Sans", sans-serif;
+    font-weight: 500;
     font-size: 16px; }
   .list-blocks {
     overflow: hidden; }
@@ -3489,11 +3508,12 @@ corresponds to the arrow we want to display */
     display: block;
     overflow: hidden; }
   .list-transactions__right {
+    font-family: "Open-Sans", sans-serif;
     float: right;
-    width: 100px;
-    text-align: right;
-    margin-left: 18%; }
+    width: 200px;
+    text-align: right; }
   .list-transactions .hash__title {
+    font-family: "Open-Sans", sans-serif;
     float: left;
     padding-right: 5px; }
   .list-transactions .hash__data {
@@ -3515,10 +3535,14 @@ corresponds to the arrow we want to display */
   .list-transactions .labeled {
     font-size: 13px; }
   .list__left {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     float: left;
     width: 50%;
     line-height: 30px; }
   .list__right {
+    font-family: "Open-Sans", sans-serif;
+    text-transform: uppercase;
     width: 50%;
     float: right;
     text-align: right;
@@ -3727,7 +3751,8 @@ corresponds to the arrow we want to display */
   vertical-align: top; }
 
 .table {
-  font-size: 14px; }
+  font-family: "Open-Sans", sans-serif;
+  font-size: 16px; }
   .table__moreArrow {
     position: absolute;
     left: 0;
@@ -3749,14 +3774,15 @@ corresponds to the arrow we want to display */
   padding: 6px 2px;
   overflow: hidden; }
   .tr:hover {
-    background: rgba(46, 154, 208, 0.12); }
+    background: #040f23 }
   .trMain {
     overflow: hidden; }
   .trMore {
     display: none;
     overflow: hidden; }
   .tr-head {
-    border-bottom: 1px dashed #253b4a;
+    font-family: "Open-Sans", sans-serif;
+    border-bottom: 1px solid #c7c7c7;
     padding: 0 0 15px !important;
     margin-bottom: 14px !important; }
     .tr-head:hover {
@@ -3894,18 +3920,17 @@ corresponds to the arrow we want to display */
   height: 30px;
   line-height: 30px;
   width: 100%;
-  background: #ffffff; }
+  background: #040f23; }
   .loader__text {
     position: relative;
     z-index: 1;
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
-    color: #071434;
+    color: white;
     padding: 0 10px;
     height: 20px;
-    line-height: 20px;
-    background: #ffffff; }
+    line-height: 20px; }
   .loader__bg {
     position: absolute;
     top: 0;
@@ -4677,7 +4702,7 @@ corresponds to the arrow we want to display */
   position: relative;
   float: right;
   background: url("../images/search.png") 13px 50% no-repeat;
-  min-width: 450px; }
+  min-width: 600px; }
   .search__wrap-token {
     max-width: 725px;
     width: 100%;
@@ -4797,9 +4822,11 @@ corresponds to the arrow we want to display */
   display: none; }
 
 .trans-textarea {
+  font-family: "Open Sans";
+  background: #040f23;
   margin-bottom: 18px;
-  border: 1px solid #ffffff;
-  padding: 15px 15px 15px 20px; }
+  padding: 15px 15px 15px 20px; 
+}
   .trans-textarea.error {
     border: 1px solid #17a2b8;
     background-color: transparent;
@@ -4814,7 +4841,10 @@ corresponds to the arrow we want to display */
       margin: 0 0 5px 0;
       font-size: 14px; }
   .trans-textarea .title {
-    margin-bottom: 17px; }
+    margin-bottom: 17px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-style: italic; }
   .trans-textarea .body {
     height: 230px;
     overflow: auto;
@@ -4934,7 +4964,6 @@ corresponds to the arrow we want to display */
     font-size: 14px; }
 
 .section-appStatus {
-  margin-top: 42px;
   margin-bottom: 60px; }
   .section-appStatusWrap {
     overflow: hidden;
@@ -4943,8 +4972,6 @@ corresponds to the arrow we want to display */
       padding-right: 45px; }
     .section-appStatusWrap .col:nth-child(2) {
       padding-left: 20px; }
-  .section-appStatus .list__item {
-    margin-bottom: 17px; }
   .section-appStatus .link {
     display: inline-block;
     vertical-align: text-bottom;
