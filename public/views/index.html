@@ -7,10 +7,7 @@
 
 	<div class="content__left">
 		<div class="heading">
-			<div class="heading__pic">
-				<img src="images/blockchainInfo.png" alt=""/>
-			</div>
-			<h2 class="heading__title">Blockchain Info</h2>
+			<h2 class="heading__title">BLOCKCHAIN INFO</h2>
 		</div>
 
 		<div class="preload__box" ng-if="!IC.blockchainInfo">
@@ -31,57 +28,54 @@
 			<div class="clearfix">
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.relayfee }}</div>
-					<div class="labeled" translate>Relay Fee</div>
+					<div class="labeled" translate>RELAY FEE</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.difficulty['proof-of-stake'] | numeraljs : '0,0[.][00000000]' }}</div>
-					<div class="labeled" translate>Difficulty</div>
+					<div class="labeled" translate>DIFFICULTY</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.connections }}</div>
-					<div class="labeled" translate>Connections</div>
+					<div class="labeled" translate>CONNECTIONS</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.stakingInfo && IC.blockchainInfo.stakingInfo.netstakeweight ? IC.blockchainInfo.stakingInfo.netstakeweight / 1e8 : 0 | numeraljs : '0,0[.][00000000]' }}</div>
-					<div class="labeled" translate>Network Weight</div>
+					<div class="labeled" translate>NETWORK WEIGHT</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.blocks | numeraljs : '0,0'}}</div>
-					<div class="labeled" translate>Block Height</div>
+					<div class="labeled" translate>BLOCK HEIGHT</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.blockchainInfo.reward ? IC.blockchainInfo.reward / 1e8 : 0 }} {{ IC.rewardCurrency }}</div> 
-					<div class="labeled" translate>Block Reward</div>
+					<div class="labeled" translate>BLOCK REWARD</div>
 				</div>
 			</div>
 			<div class="section__heading">
-				<div class="section__title">Value Info</div>
+				<div class="section__title">VALUE INFO</div>
 			</div>
 			<div class="item item-full">
 				<div class="label">{{ IC.marketsInfo.market_cap_usd | numeraljs : '0,0' }}</div>
-				<div class="labeled">Market Cap in USD</div>
+				<div class="labeled">MARKETCAP IN USD</div>
 			</div>
 			<div class="limiter"></div>
 			<div class="clearfix">
 				<div class="item">
 					<div class="label">{{ IC.marketsInfo.price_usd }}</div>
-					<div class="labeled">Price in USD</div>
+					<div class="labeled">PRICE IN USD</div>
 				</div>
 				<div class="item">
 					<div class="label">{{ IC.marketsInfo.price_btc }}</div>
-					<div class="labeled">Price in BTC</div>
+					<div class="labeled">PRICE IN BTC</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="content__right">
 		<div class="heading">
-			<div class="heading__pic">
-				<img src="images/blocks.png" alt=""/>
-			</div>
-			<h2 class="heading__title" translate>Blocks</h2>
+			<h2 class="heading__title" translate>BLOCKS</h2>
 			<div class="heading__linkWrap">
-				<a href="blocks" class="heading__link" translate>See all blocks</a>
+				<a href="blocks" class="heading__link" translate>SEE ALL BLOCKS</a>
 			</div>
 		</div>
 		<div class="content__list content__list-blocks">
@@ -134,10 +128,7 @@
 	</div>
 	<div class="content__left">
 		<div class="heading">
-			<div class="heading__pic">
-				<img src="images/transition.png" alt=""/>
-			</div>
-			<h2 class="heading__title" translate>Transactions</h2>
+			<h2 class="heading__title" translate>TRANSACTIONS</h2>
 		</div>
 		<div class="content__list content__list-transactions">
 			<div class="preload__box" ng-if="!IC.txs.length">
@@ -152,7 +143,7 @@
 					<li class="list__item"
 						ng-repeat='tx in IC.txs'>
 						<div class="list-transactions__right">
-							<div class="list__row fsz-13" am-time-ago="tx.createTime">
+							<div class="list__row fsz-16" am-time-ago="tx.createTime">
 							</div>
 						</div>
 						<div class="list-transactions__left">
@@ -164,7 +155,7 @@
 								</a>
 							</div>
 							<div class="list__row">
-								<span class="label" translate>Value Out:</span>
+								<span class="hash__title" translate>Value Out:</span>
 								<span class="fsz-16 upp">
 									{{ $root.currency.getConvertion(tx.valueOut) }}
 								</span>
@@ -174,61 +165,12 @@
 				</ul>
 			</div>
 		</div>
-		<div class="insight__chart" ng-init="IC.getListOfTransactions()">
-			<div
-					class="insight__chartTitle"
-					ng-if="IC.chartOptions.data && IC.chartOptions.labels">
-				{{ IC.chartDays }}
-				{{ 'day LUX Transaction History' | translate }}
-			</div>
-			<div class="" ng-if="IC.chartOptions.data && IC.chartOptions.labels">
-				<div class="">
-					<canvas id="line"
-							class="chart chart-line"
-							chart-data="IC.chartOptions.data"
-							chart-labels="IC.chartOptions.labels"
-							chart-series="IC.chartOptions.series"
-							chart-options="IC.chartOptions.options"
-							chart-dataset-override="IC.chartOptions.datasetOverride"
-							height="70">
-					</canvas>
-				</div>
-			</div>
-		</div>
 	</div>
 	<div class="content__right">
+		
 		<div class="heading">
-			<h3 class="heading__title" translate>About</h3>
-		</div>
-		<div class="content__body">
-			<p translate>Insight is an <a href="https://insight.is/" target="_blank">open-source Lux blockchain explorer</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps that need more advanced blockchain queries than provided by luxd RPC. Check out the <a href="https://github.com/bitpay/insight-ui" target="_blank" class="ng-scope">source code</a>.
-			</p>
-			<p translate>Insight is still in development, so be sure to report any bugs and provide feedback for improvement at our <a href="https://github.com/bitpay/insight-ui/issues" target="_blank" class="ng-scope">github issue tracker</a>.
-			</p>
-			<div class="powered__title" translate>
-				Powered  by:
-			</div>
-			<div class="powered__wrap">
-				<a href="http://bitcore.io" class="powered__item">
-					<img src="images/bitcore.png" alt="Bitcore" class="powered__logo"/>
-				</a>
-				<a href="http://angularjs.org" class="powered__item">
-					<img src="images/angular.png" alt="angularjs" class="powered__logo"/>
-				</a>
-				<a href="https://code.google.com/p/leveldb/" class="powered__item">
-					<img src="images/leveldb.png" alt="leveldb" class="powered__logo"/>
-				</a>
-				<a href="http://nodejs.org" class="powered__item">
-					<img src="images/nodejs.png" alt="NodeJs" class="powered__logo"/>
-				</a>
-			</div>
-		</div>
-
-	</div>
-	<div class="content__full air-b" data-ng-controller="SendRawTransactionController as SRTC">
-		<div class="heading">
-			<h1 class="heading__title">Send Raw Transaction</h1>
-			<p class="heading__desc">You could enter a Signed Raw Transaction in hex format and broadcast it over the LUX network.</p>
+			<h1 class="heading__title">SEND RAW TRANSACTION</h1>
+			<p class="heading__desc">YOU COULD ENTER A SIGNED RAW TRANSACTION IN HEX FORMAT AND BROADCAST IT OVER THE LUX NETWORK.</p>
 		</div>
 		<div class="section">
 	
@@ -241,10 +183,34 @@
 			</div>
 		</div>
 		<div class="btn-wrap" ng-class="{'error': isStatusError()}">
-			<a href="" class="btn btn-blocks" ng-click="send()">{{ isStatusError() ? 'Try again' : 'Send transaction' }}</a>
+			<a href="" class="btn btn-blocks" ng-click="send()">{{ isStatusError() ? 'Try again' : 'SEND TRANSACTION' }}</a>
 			<span class="error-msg" ng-if="isStatusError()">Transaction can not be sent{{error}}</span>
 		</div>
 		<span class="success" ng-if="isStatusSent()">Transaction has been successfully sent! {{txid}}</span>
+	</div>
+	<div class="content__full air-b" data-ng-controller="SendRawTransactionController as SRTC">
+		<div class="insight__chart" ng-init="IC.getListOfTransactions()">
+			<div
+					class="insight__chartTitle"
+					ng-if="IC.chartOptions.data && IC.chartOptions.labels">
+				{{ IC.chartDays }}
+				{{ 'day LUX Transaction History' | translate }}
+			</div>
+			<div class="" ng-if="IC.chartOptions.data && IC.chartOptions.labels">
+				<div class="">
+					<canvas id="line"
+							class="chart chart-line"
+							style="background-color: #232328"
+							chart-data="IC.chartOptions.data"
+							chart-labels="IC.chartOptions.labels"
+							chart-series="IC.chartOptions.series"
+							chart-options="IC.chartOptions.options"
+							chart-dataset-override="IC.chartOptions.datasetOverride"
+							height="70">
+					</canvas>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="supernova__wrapBox">
 		<div class="supernova__wrap">
