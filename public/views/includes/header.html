@@ -1,10 +1,10 @@
 <a href="." class="logo">
 	<img src="images/luxInsight_logo2.png" alt="" class="logoPic-def"/>
-	<img src="images/luxInsight_logo2-hover.png" alt="" class="logoPic-hover"/>
+	<img src="images/luxInsight_logo2.png" alt="" class="logoPic-hover"/>
 </a>
 
 <div class="header__lang-switcher" >
-	<div class="language-switcher">
+	<!-- <div class="language-switcher">
 		<div class="language-switcher__selected"
 			 ng-repeat="language in HC.availableLanguages | filter: { isoCode: HC.defaultLanguage }">
 			{{ language.name }}
@@ -22,6 +22,10 @@
 				{{ language.name }}
 			</a>
 		</nav>
+	</div> -->
+	<div class="search__wrap"
+		 ng-include
+		 src="'views/includes/search.html'">
 	</div>
 </div>
 
@@ -36,8 +40,4 @@
 			{{ item.title }}
 		</a>
 	</nav>
-	<div class="search__wrap"
-		 ng-include
-		 src="'views/includes/search.html'">
-	</div>
 </div>
